@@ -42,5 +42,5 @@
         </div>
     </div>
 </form>
-<a href="/php/websinhvien" class="btn btn-link">Back to List</a>
+<a href="/php/websinhvien/Student/index" class="btn btn-link">Back to List</a>
 <?php include 'app/views/shares/footer.php'; ?>

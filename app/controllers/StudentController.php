@@ -28,7 +28,7 @@ class StudentController {
             $Hinh = $this->uploadImage($_FILES['Hinh']);
             $MaNganh = $_POST['MaNganh'];
             $this->studentModel->createStudent($MaSV, $HoTen, $GioiTinh, $NgaySinh, $Hinh, $MaNganh);
-            header('Location: /php/websinhvien');
+            header('Location: /php/websinhvien/Student/index');
         }
     }
 
@@ -46,7 +46,7 @@ class StudentController {
             $Hinh = $this->uploadImage($_FILES['Hinh'], $_POST['current_image']);
             $MaNganh = $_POST['MaNganh'];
             $this->studentModel->updateStudent($MaSV, $HoTen, $GioiTinh, $NgaySinh, $Hinh, $MaNganh);
-            header('Location: /php/websinhvien');
+            header('Location: /php/websinhvien/Student/index');
         }
     }
 
@@ -61,7 +61,7 @@ class StudentController {
             $this->deleteImage($student['Hinh']);
         }
         $this->studentModel->deleteStudent($id);
-        header('Location: /php/websinhvien');
+        header('Location: /php/websinhvien/Student/index');
     }
 
     public function detail($id) {

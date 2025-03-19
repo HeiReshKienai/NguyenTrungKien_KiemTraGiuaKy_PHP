@@ -17,6 +17,6 @@
 </div>
 <form method="POST" action="/php/websinhvien/Student/delete/<?= $student['MaSV'] ?>" class="mt-3">
     <button type="submit" class="btn btn-danger">Delete</button>
-    <a href="/php/websinhvien" class="btn btn-link">Back to List</a>
+    <a href="/php/websinhvien/Student/index" class="btn btn-link">Back to List</a>
 </form>
 <?php include 'app/views/shares/footer.php'; ?>
