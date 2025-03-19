@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.form-horizontal .control-label {
+    text-align: left;
+}
+
+.form-horizontal .col-sm-10 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100px;
+    height: auto;
+}
+
+.btn-link {
+    margin-top: 20px;
+    display: inline-block;
+}
